@@ -1,0 +1,769 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fefcfc;
+  list-style: none;
+}
+.nav {
+  background-color: #410c00;
+  height: 220px;
+  width: 100%;
+  position: absolute;
+}
+
+.bar {
+  display: flex;
+  margin: 30px 260px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.bar2 {
+  padding-right: 310px;
+  font-size: 19px;
+  position: relative;
+  bottom: 150px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: end;
+}
+
+.bar a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 60px;
+  margin-right: 30px;
+}
+
+.bar2 a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+.container {
+  padding-left: 300px;
+  color: white;
+  z-index: 2;
+  position: relative;
+  top: 500px;
+  font-size: 34px;
+  font-family: "Inter", sans-serif;
+}
+
+.container p {
+  font-size: 16px;
+}
+
+.video_media {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 750px;
+}
+
+.intro {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.container button {
+  border-radius: 50px;
+  background-color: rgb(2, 2, 171);
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+}
+
+.container button:hover {
+  transition: all ease 1s;
+  background-color: aliceblue;
+  color: rgb(2, 2, 172);
+}
+
+.container2 {
+  height: 900px;
+  width: 100%;
+  background: url(https://lhcdn.mars.com/adaptivemedia/rendition/id_c38099efd7a9f0763feffe2dd3d6d3ff1baaf63e/name_c38099efd7a9f0763feffe2dd3d6d3ff1baaf63e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Inter", sans-serif;
+}
+.container2 img {
+  width: 100%;
+  height: 750px;
+}
+
+.container2 p {
+  z-index: 2;
+  color: white;
+  position: relative;
+  top: 330px;
+  right: 350px;
+  font-size: 24px;
+  text-align: center;
+}
+.container2 h1 {
+  color: white;
+  position: relative;
+  right: 300px;
+  top: 350px;
+  font-size: 44px;
+  text-align: center;
+}
+.container2 button {
+  border-radius: 50px;
+  background-color: rgb(2, 2, 171);
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+  position: relative;
+  top: 400px;
+  left: 630px;
+}
+.container2 button:hover {
+  transition: all ease 1s;
+  background-color: aliceblue;
+  color: rgb(2, 2, 172);
+}
+
+
+.card {
+  margin-right: 200px;
+  float: right;
+  position: relative;
+  bottom: 700px;
+  border: 2px solid #410c00;
+  border-radius: 20px;
+  background-color: #410c00;
+  width: 320px;
+  height: 520px;
+  color: white;
+}
+.card img {
+  width: 260px;
+  margin: 1px 30px;
+}
+
+.card p {
+  margin: 30px 110px;
+  font-family: "Inter", sans-serif;
+}
+
+.card h1 {
+  font-size: 18px;
+  width: 223px;
+  height: 80px;
+  letter-spacing: 1.6px;
+  line-height: 26.4px;
+  padding-left: 45px;
+  font-weight: 900;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+
+.card button {
+  border-radius: 50px;
+  border: none;
+  color: white;
+  background-color: #210082;
+  width: 133px;
+  height: 50px;
+  position: relative;
+  left: 30px;
+  top: 14px;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #210082;
+  transition: all ease 1s;
+}
+
+.card:hover .btn {
+  background-color: white;
+  color: #210082;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  transition: all ease 1s;
+}
+
+.halloween {
+  height: 500px;
+  background: url(https://www.snickers.com/sites/g/files/fnmzdf616/files/2023-09/90716_1_SNK_HLWN_MW_Web_PPage_Dsktp_1920x640.jpg);
+}
+.halloween h1 {
+  color: white;
+  position: relative;
+  top: 150px;
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.halloween button {
+  position: relative;
+  left: 850px;
+  top: 270px;
+  border-radius: 50px;
+  background-color: rgb(2, 2, 171);
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+}
+.halloween button:hover {
+  transition: all ease 1s;
+  background-color: aliceblue;
+  color: rgb(2, 2, 172);
+}
+
+.hello img {
+  margin-top: 200px;
+  left: 200px;
+  width: 600px;
+  height: 185px;
+  position: relative;
+  animation: mymove 7s infinite;
+  animation-delay: 0ms;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 60px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 60px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+.hello {
+  background-color: #e5ac49;
+  border: #e5ac49 2px;
+  height: 700px;
+}
+
+.heloo {
+  margin: 200px 100px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hello h1 {
+  color: white;
+  font-size: 67px;
+  font-family: "Inter", sans-serif;
+}
+.hello p {
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.hello button {
+  border-radius: 50px;
+  background-color: rgb(2, 2, 171);
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border: none;
+}
+.hello button:hover {
+  transition: all ease 1s;
+  background-color: aliceblue;
+  color: rgb(2, 2, 172);
+}
+
+.favs {
+  border: white;
+  background-color: white;
+  height: 1000px;
+}
+
+.favorites {
+  width: 100%;
+  padding-top: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.or {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #410c00;
+  font-family: "Inter", sans-serif;
+}
+
+.favs img {
+  width: 300px;
+  height: 300px;
+  border: rgb(255, 255, 255) solid;
+}
+.favs img:hover {
+  transform: scale(1.1);
+  transition: all ease 1s;
+}
+.favs .hh1 {
+  color: #410c00;
+  text-align: center;
+  font-size: 65px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -5px;
+  word-spacing: 1px;
+  position: relative;
+  top: 90px;
+}
+
+.favs button {
+  border-radius: 50px;
+  background-color: rgb(2, 2, 171);
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  border: none;
+  position: relative;
+  left: 55px;
+}
+.favs button:hover {
+  transition: all ease 1s;
+  background-color: aliceblue;
+  color: rgb(2, 2, 172);
+}
+
+.ice_cream {
+  height: 600px;
+  position: relative;
+  background: url(https://lhcdn.mars.com/adaptivemedia/rendition/id_abb4b2f9448a7eaeb07bb6718db3c0f827448607/name_abb4b2f9448a7eaeb07bb6718db3c0f827448607.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+.ice_cream .h1 {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+}
+.ice_cream .h2 {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 45px;
+}
+.ice_cream p {
+  text-align: center;
+  position: relative;
+  top: 250px;
+  font-size: 30px;
+}
+.ice_cream button {
+  margin: 300px 800px;
+  position: relative;
+  left: 120px;
+  border-radius: 50px;
+  background-color: rgb(2, 2, 171);
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border: none;
+}
+.ice_cream button:hover {
+  transition: all ease 1s;
+  background-color: aliceblue;
+  color: rgb(2, 2, 172);
+}
+
+.protein {
+  height: 700px;
+  background: url(https://www.snickers.com/cdn-cgi/image/width=1440,height=580,f=auto,quality=90/sites/g/files/fnmzdf616/files/2023-06/SNK_Hi_Protein_Desktop_2880x1160.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+footer {
+  position: relative;
+  height: 650px;
+  color: #ffffff;
+  background-color: #410c00;
+  font-family: "Inter", sans-serif;
+}
+footer h1 {
+  padding-left: 200px;
+  font-size: 25px;
+  position: relative;
+  top: 50px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.col2 {
+  position: relative;
+  left: 300px;
+}
+.col3 {
+  padding-left: 500px;
+}
+
+footer ul {
+  list-style: none;
+}
+.par {
+  width: 1200px;
+  height: 40px;
+margin-top: 50px;
+  float: right;
+}
+footer select {
+  border-radius: 50px;
+  width: 280px;
+  height: 50px;
+  font-size: 20px;
+  position: relative;
+  top: 300px;
+  left: 10px;
+}
+footer label {
+  position: relative;
+  top: 250px;
+  left: 200px;
+  font-size: 20px;
+}
+footer h2 {
+  padding-top: 200px;
+  padding-left: 40px;
+}
+footer button {
+  position: relative;
+  left: 250px;
+  top: 50px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: white;
+  width: 200px;
+  height: 70px;
+  font-size: 15px;
+  border: 2px white solid;
+  font-family: "Inter", sans-serif;
+}
+footer button:hover {
+  transition: all ease 1s;
+  background-color: aliceblue;
+  color: rgb(2, 2, 172);
+}
+
+.icons {
+  position: relative;
+  top: 65px;
+  word-spacing: 40px;
+  margin-left: 200px;
+}
+
+.subnav {
+  display: none;
+  min-height: 100%;
+  margin: 1px 1px;
+  list-style: none;
+  font-size: 20px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: 1;
+  background-color: #ffffff;
+  width: 250px;
+  height: 130px;
+  font-family: "Mohave", sans-serif;
+}
+
+.subnav-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-item:hover > .subnav {
+  display: block;
+}
+.subnav a {
+  color: #410c00;
+}
+
+
+@media screen and (max-width: 800px) {
+  .nav{
+    height: 80px;
+  }
+
+  .intro{
+    height: 520px;
+    overflow: visible;
+  }
+  .video{
+    position: relative;
+  }
+  .video_media{
+    width: 100%;
+  }
+
+  .container{
+    position: relative;
+    right: 290px;
+    top: 300px;
+    font-size: 20px;
+    width: 400px;
+    letter-spacing: -2px;
+  }
+  .container p{
+    font-size: 13px;
+    letter-spacing: 0px;
+  }
+  .container button{
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .halloween h1{
+    font-size: 20px;
+  }
+  .halloween button{
+    position: relative;
+    left: 140px;
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+  }
+
+  .hello{
+    height: 640px;
+  }
+  .heloo{
+    align-items: baseline;
+    position: relative;
+    top: 40px;
+    right: 80px;
+  }
+  .heloo h1{
+    font-size: 29px;
+  }
+  .heloo button{
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+  }
+  .heloo p{
+    font-size: 11px;
+  }
+  .hello img{
+    left: 10px;
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin-top: -200px;
+  }
+.favs{
+  height: 1730px;
+}
+  .favs .hh1{
+    font-size: 27px;
+    letter-spacing: 0px;
+    font-weight: 900;
+  }
+  .favorites{
+    display: grid;
+    margin-top: -100px;
+  }
+  .favorites button{
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+  }
+
+  .container2 button{
+    position: relative;
+    left: 150px;
+    top: 45px;
+    width: 140px;
+    height: 50px;
+    font-size: 13px;
+  }
+  .container2 p{
+    position: relative;
+    left: 6px;
+    top: 19px;
+    font-size: 13px;
+  }
+  .container2 h1{
+    position: relative;
+    left: 6px;
+    top: 19px;
+    font-size: 30px;
+  }
+  .card{
+    margin-top: 100px;
+    position: relative;
+    left: 140px;
+  }
+
+  .ice_cream .h2{
+    position: relative;
+    top: -500px;
+    font-size: 30px;
+  }
+  .ice_cream .h1{
+    position: relative;
+    top: -530px;
+    font-size: 13px;
+  }
+  .ice_cream p{
+    position: relative;
+    top: -430px;
+    font-size: 15px;
+  }
+  .ice_cream button{
+    position: relative;
+    top: -630px;
+    left: -701px;
+    font-size: 13px;
+  }
+
+  .protein{
+    background-position: center;
+    background-size: cover;
+  }
+
+  footer {
+    position: relative;
+    height: 930px;
+    color: #ffffff;
+    background-color: #410c00;
+    font-family: "Inter", sans-serif;
+  }
+  footer h1 {
+    padding-left: 20px;
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+  }
+  
+  .col {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin-top:20px;
+    margin-right: 100px;
+  }
+  .col2 {
+    position: relative;
+    display: none;
+    left: 10px;
+  }
+  .col3 {
+    padding-left: 10px;
+    margin-left: 50px;
+  }
+  
+ 
+  .par {
+    width: 400px;
+    height: 40px;
+    margin-top: 50px;
+    float: right;
+    font-size: 12px ;
+  }
+  footer select {
+    border-radius: 50px;
+    width: 380px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    top: 420px;
+    left: 10px;
+  }
+  footer label {
+    position: relative;
+    top: 410px;
+    left: 20px;
+    font-size: 15px;
+  }
+  footer h2 {
+    padding-top: 350px;
+    padding-left: 40px;
+  }
+  footer button {
+    position: relative;
+    left: 10px;
+    top: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+    width: 150px;
+    height: 60px;
+    font-size: 15px;
+    border: 2px white solid;
+    font-family: "Inter", sans-serif;
+  }
+  footer button:hover {
+    transition: all ease 1s;
+    background-color: aliceblue;
+    color: rgb(2, 2, 172);
+  }
+  
+  .icons {
+    position: relative;
+    top: 65px;
+    word-spacing: 40px;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  
+
+
+
+}
